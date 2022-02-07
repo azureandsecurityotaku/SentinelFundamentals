@@ -1,10 +1,9 @@
 ---
 lab:
     title: 'Exercise 3 - Connect Linux hosts to Microsoft Sentinel using data connectors'
-    module: 'Module 6 - Connect logs to Microsoft Sentinel'
 ---
 
-# Module 6 - Lab 1 - Exercise 3 - Connect Linux hosts to Microsoft Sentinel using data connectors
+# Lab 3 - Exercise 3 - Connect Linux hosts to Microsoft Sentinel using data connectors
 
 ## Lab scenario
 
