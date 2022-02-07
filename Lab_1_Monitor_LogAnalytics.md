@@ -312,13 +312,13 @@ In this task, you will configure Azure virtual machine diagnostic settings.
 1. List all resource groups created throughout the labs of this module by running the following command:
 
    ```powershell
-   Get-AzResourceGroup -Name 'lab1-11*'
+   Get-AzResourceGroup -Name 'lab1-*'
    ```
 
 1. Delete all resource groups you created throughout the labs of this module by running the following command:
 
    ```powershell
-   Get-AzResourceGroup -Name 'lab1-11*' | Remove-AzResourceGroup -Force -AsJob
+   Get-AzResourceGroup -Name 'lab1-*' | Remove-AzResourceGroup -Force -AsJob
    ```
 
     >**Note**: The command executes asynchronously (as determined by the -AsJob parameter), so while you will be able to run another PowerShell command immediately afterwards within the same PowerShell session, it will take a few minutes before the resource groups are actually removed.
