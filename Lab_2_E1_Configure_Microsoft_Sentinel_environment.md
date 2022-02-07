@@ -14,23 +14,15 @@ You are a Security Operations Analyst working at a company that is implementing 
 
 In this task, you will create a Microsoft Sentinel workspace.
 
-1. Log in to WIN1 virtual machine as Admin with the password: **Pa55w.rd**.  
-
 1. Open the Edge browser.
 
-1. In the Edge browser, navigate to the Azure portal at https://portal.azure.com.
-
-1. In the **Sign in** dialog box, copy and paste in the **Tenant Email** account provided by your lab hosting provider and then select **Next**.
-
-1. In the **Enter password** dialog box, copy and paste in the **Tenant Password** provided by your lab hosting provider and then select **Sign in**.
+1. In the Edge browser, sign in to the Azure portal at https://portal.azure.com.
 
 1. In the Search bar of the Azure portal, type *Sentinel*, then select **Microsoft Sentinel**.
 
 1. Select **+ Create**.
 
 1. Next, select the Log Analytics workspace you created earlier, for example *uniquenameDefender* and select **Add**. The activation could take a few minutes.
-
-    >**Note:** If you do not see a Log Analytics workspace here, please refer to Module 3, Exercise 1, Task 2 to create one.
 
 1. Navigate around the newly created Microsoft Sentinel workspace to become familiar with the user interface options.
 
